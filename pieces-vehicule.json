@@ -1,0 +1,122 @@
+[
+    {
+        "id":1 ,
+         "nom": " Peugeot 3008",
+        "prix": 22000,
+        "categorie": "SUV / Crossover",    
+        "description": "Très populaires, ils offrent une position de conduite surélevée et un grand volume !",
+        "disponibilite":true,
+        "image": "images/186-front.jpg"
+
+    },
+     {
+        "id":2 ,
+         "nom": "Renault Twingo",
+        "prix": 20000,
+        "categorie": "Citadines",    
+        "description": "Compactes et maniables, idéales pour la ville!",
+        "disponibilite":true,
+        "image": "images/492-front.jpg"
+
+    },
+     {
+        "id":3 ,
+         "nom": "Volkswagen Golf",
+        "prix": 27000,
+        "categorie": "Berlines",    
+        "description": " Confortables et spacieuses, parfaites pour les longs trajets!",
+        "disponibilite":true,
+        "image": "images/274-front.jpg"
+
+    },
+     {
+        "id":4 ,
+        "nom": "Renault Espace",
+        "prix": 19000,
+        "categorie": "Monospaces (MPV)",    
+        "description": "Espace intérieur maximisé pour les familles nombreuses !",
+        "disponibilite":true,
+        "image": "images/814-front.jpg"
+
+    },
+     {
+        "id":5 ,
+         "nom": "Albarth",
+        "prix": 33000,
+        "categorie": "SUV / Crossover",    
+        "description": " Version allongée des berlines, offrant un grand coffre.!",
+        "disponibilite":true,
+        "image": "images/1070-front.jpg"
+
+    },
+     {
+        "id":6 ,
+         "nom": "Jeep",
+        "prix": 25000,
+        "categorie": "Volkswagen Golf",    
+        "description": " Leader du marché, réputée pour son design moderne et sa tenue de route. !",
+        "disponibilite":true,
+        "image": "images/1134-front.jpg"
+
+    },
+     {
+        "id":7 ,
+         "nom": "Mercedes Classe B",
+        "prix": 39000,
+        "categorie": "Mercedes",    
+        "description": "Monospace compact 6 modèles depuis 2005 !",
+        "disponibilite":true,
+        "image": "images/1181-front.jpg"
+
+    },
+     {
+        "id":8 ,
+         "nom": "Mercedes classe D",
+        "prix": 32000,
+        "categorie": "Mercedes",    
+        "description": "Suv grand 7 modèles depuis 1993 !",
+        "disponibilite":true,
+        "image": "images/1197-front.jpg"
+
+    },
+     {
+        "id":9 ,
+         "nom": "Mercedes EQS",
+        "prix": 55000,
+        "categorie": "Mercedes",    
+        "description": "Berline electrique depuis 2021!",
+        "disponibilite":true,
+        "image": "images/274-front.jpg"
+
+    },
+     {
+        "id":10 ,
+         "nom": "Toyota Rav4",
+        "prix": 64000,
+        "categorie": "Toyota",    
+        "description": "Suv moyen 9 modèles depuis 1994 !",
+        "disponibilite":true,
+        "image": "images/274-front.jpg"
+
+    },
+     {
+        "id":11 ,
+         "nom": "Volkswagen ID.4",
+        "prix": 19000,
+        "categorie": "Berlines",    
+        "description": "Suv moyen depuis 2020!",
+        "disponibilite":true,
+        "image": "images/247-front.jpg"
+
+    },
+     {
+        "id":12 ,
+         "nom": "Toyota Yaris",
+        "prix": 27000,
+        "categorie": "Toyota",    
+        "description": "Citadine polyvalente 8 modèles depuis 1993!",
+        "disponibilite":true,
+        "image": "images/526-front.jpg"
+
+    }
+]
