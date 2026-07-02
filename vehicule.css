@@ -1,0 +1,139 @@
+/* --- Navbar --- */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-liens {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-liens a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-liens a:hover {
+    text-decoration: underline;
+}
+
+/* --- Header --- */
+header {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+/* --- Fiche véhicule : image + infos sur la même ligne --- */
+.fiche-vehicule {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 30px;
+}
+
+.fiche-vehicule img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.vehicule-infos {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* --- Avis --- */
+.avis-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 30px;
+}
+
+.avis-anciens,
+.laisser-avis {
+    flex: 1;
+    min-width: 280px;
+}
+
+.avis-item {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+}
+
+.avis-entete {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 0.9em;
+}
+
+.avis-nom {
+    font-weight: bold;
+}
+
+.avis-note {
+    color: #f5a623;
+}
+
+.avis-date {
+    color: #888;
+    margin-left: auto;
+}
+
+#form-avis {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+}
+
+#form-avis input,
+#form-avis select,
+#form-avis textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+#form-avis button {
+    align-self: flex-start;
+    padding: 8px 20px;
+    background-color: #1f2937;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-avis button:hover {
+    background-color: #374151;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2937;
+    color: #fff;
+    margin-top: 30px;
+}

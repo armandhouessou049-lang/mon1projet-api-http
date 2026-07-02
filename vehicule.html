@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vehicule.css">
+    <script type="module" src="vehicule.js" defer></script>
+    <title>Fiche véhicule</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="" alt="logo">
+        </div>
+        <ul class="navbar-liens">
+            <li><a href="Index.html">Accueil</a></li>
+            <li><a href="Index.html#filtres">Véhicules</a></li>
+            <li><a href="#avis">Avis</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1 id="titre-vehicule">Fiche du véhicule</h1>
+    </header>
+
+    <main>
+        <!-- Image + informations sur la même ligne -->
+        <section class="fiche-vehicule" id="fiche-vehicule">
+            <img id="vehicule-image" src="" alt="">
+            <div class="vehicule-infos">
+                <h2 id="vehicule-nom"></h2>
+                <p id="vehicule-description"></p>
+                <p id="vehicule-prix"></p>
+                <p id="vehicule-categorie"></p>
+                <p id="vehicule-disponibilite"></p>
+            </div>
+        </section>
+
+        <!-- Avis -->
+        <section class="avis-section" id="avis">
+
+            <div class="avis-anciens">
+                <h2>Avis des clients</h2>
+                <div id="liste-avis">
+                    <!-- les avis existants sont injectés ici par vehicule.js -->
+                </div>
+            </div>
+
+            <div class="laisser-avis">
+                <h2>Laisser un avis</h2>
+                <form id="form-avis">
+                    <label for="nom-avis">Nom</label>
+                    <input type="text" id="nom-avis" name="nom-avis" required>
+
+                    <label for="note-avis">Note</label>
+                    <select id="note-avis" name="note-avis" required>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Très bien</option>
+                        <option value="3">3 - Bien</option>
+                        <option value="2">2 - Moyen</option>
+                        <option value="1">1 - Mauvais</option>
+                    </select>
+
+                    <label for="commentaire-avis">Commentaire</label>
+                    <textarea id="commentaire-avis" name="commentaire-avis" rows="4" required></textarea>
+
+                    <button type="submit">Envoyer mon avis</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
